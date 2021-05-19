@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#apps {
+    margin: 20px auto;
+    padding-top: 10px;
+    height: 800px;
+    background-color: skyblue;
+    display: inline-block;
+}
+
+#games {
+    margin: 20px auto;
+    padding-top: 10px;
+    height: 800px;
+    background-color: #edb555;
+    width: 100%;
+}
+
+#bot {
+    margin: 20px auto;
+    padding-top: 10px;
+    height: 800px;
+    background-color: #8263eb;
+    width: 100%;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 120px;
+    margin: 6px auto;
+    margin-top: -25px;
+}
+img:hover{
+    transform: scale(0.9);
+}
+img{
+    transition: transform 0.2s;
+}
